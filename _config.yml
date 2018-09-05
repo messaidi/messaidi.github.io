@@ -1,6 +1,7 @@
 title: Meryem Essaidi
 author: 35 Olden St, Princeton, NJ 08540
 email: messaidi@princeton.edu 
+email2: essaidi.meryem@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
   
 # social links
@@ -8,7 +9,7 @@ description: > # this means to ignore newlines until "twitter_username:"
 # facebook_username: jekyll
 linkedin_username: meryem-essaidi-2414698b
 # googleplus_username: +jekyll
-email2: essaidi.meryem@gmail.com
+
 
 # Mastodon instances
 # mastodon:
