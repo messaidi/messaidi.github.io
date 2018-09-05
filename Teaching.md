@@ -1,5 +1,5 @@
 ---
-layout: page2
+layout: page4
 title: Teaching
 permalink: /teaching/
 ---
