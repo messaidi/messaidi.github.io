@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I am a Computer Science PhD student in the [Theory of Computer Science] (http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by S. Matthew Weinberg. 
+I am a Computer Science PhD student in the 
+[Theory of Computer Science] (http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by S. Matthew Weinberg. 
 
 Prior to that, I worked as a Research Assistant with Professor Boon Thau Loo at the University of Pennsylvania, where I also did my BSE and MSE studies in Computer Science. 
 
