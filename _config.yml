@@ -2,16 +2,11 @@ title: Meryem Essaidi
 author: 35 Olden St, Princeton, NJ 08540
 email: messaidi@princeton.edu
 
-  
-XYZ testing
-
-3982hhds
-
 # social links
 linkedin_username: meryem-essaidi-2414698b
 
 
-# show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 
 # Build settings
