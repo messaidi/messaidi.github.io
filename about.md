@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /
+title: 
+permalink: /about/
 ---
 
 I am a Computer Science PhD student in the 
