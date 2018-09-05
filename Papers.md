@@ -1,6 +1,6 @@
 --- 
-layout: page2 
-title:  Papers
+layout: page 
+title: Papers
 permalink: /papers/ 
 --- 
 
