@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "twitter_username:"
 # social links
 github_username:  messaidi
 linkedin_username: meryem-essaidi
-# googleplus_username: +jekyll
+googleplus_username: +jekyll
 
 
 
@@ -22,7 +22,7 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # - about.md
 
 # Build settings
-theme: minima
+# theme: minima
 
 plugins:
  - jekyll-feed
