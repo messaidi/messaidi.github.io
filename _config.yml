@@ -1,15 +1,32 @@
 title: Meryem Essaidi
-author: 35 Olden St, Princeton, NJ 08540
-email: messaidi@princeton.edu
+author: GitHub User
+email: your-email@domain.com
+description: > # this means to ignore newlines until "twitter_username:"
+  I am a Computer Science PhD student in the [Theory of Computer Science](http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by [S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/). Prior to that, I worked as a Research Assistant with [Professor Boon Thau Loo](http://www.cis.upenn.edu/~boonloo/) at the University of Pennsylvania, where I also did my BSE and MSE studies in Computer Science. My research interests lie in theoretical computer science, with an emphasis on algorithmic mechanism design. My current research interests include Mechanism Design, Algorithms, and Game Theory.
 
 # social links
-linkedin_username: meryem-essaidi-2414698b
+github_username:  messaidi
+linkedin_username: meryem-essaidi
+# pinterest_username: jekyll
+googleplus_username: +jekyll
 
 
-show_excerpts: true # set to true to show excerpts on the homepage
 
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-# theme: minima
+theme: minima
 
-
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
