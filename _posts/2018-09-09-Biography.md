@@ -4,9 +4,7 @@ title: "Biography"
 categories: misc
 ---
 
-<p align="right">
-  <img width="100" height="200" src="https://messaidi.github.io/profile.jpg">
-</p>
+<img align="right" width="150" height="200" src="https://messaidi.github.io/profile.jpg">
 
 I am a Computer Science PhD student in the 
 [Theory of Computer Science](http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by 
