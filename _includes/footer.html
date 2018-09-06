@@ -18,9 +18,8 @@
 	    {%- if site.author1 -%}
               {{ site.author1 | escape }}
             {%- endif -%}
-            </li>
             {%- if site.author2 -%}
-              {{ site.author2 | escape }}
+            </li>{{ site.author2 | escape }}
             {%- endif -%}
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
