@@ -5,7 +5,7 @@ categories: misc
 ---
 
 <p align="center">
-  <img width="460" height="300" src="https://messaidi.github.io/profile.jpg">
+  <img width="100" height="200" src="https://messaidi.github.io/profile.jpg">
 </p>
 
 I am a Computer Science PhD student in the 
