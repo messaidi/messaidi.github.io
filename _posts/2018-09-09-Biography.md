@@ -4,7 +4,7 @@ title: "Biography"
 categories: misc
 ---
 
-<p align="left">
+<p align="right">
   <img width="100" height="200" src="https://messaidi.github.io/profile.jpg">
 </p>
 
