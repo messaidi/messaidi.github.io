@@ -13,3 +13,5 @@ Prior to that, I graduated from Univeristy of Pennsylvania with a BSE and MSE in
 [Max Mintz](http://www.cis.upenn.edu/~mintz/home.html).
 
 My current research interests include Algorithmic Mechanism Design and Algorithmic Game Theory. I am also interested in Complexity Theory, Algorithm Design, and Theoretical Computer Science in general.
+
+![Profile](/iprofile.jpg)
