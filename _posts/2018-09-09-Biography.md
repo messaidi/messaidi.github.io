@@ -4,6 +4,8 @@ title: "Biography"
 categories: misc
 ---
 
+![](/profile.jpg)
+
 I am a Computer Science PhD student in the 
 [Theory of Computer Science](http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by 
 [S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/). 
@@ -14,4 +16,3 @@ Prior to that, I graduated from Univeristy of Pennsylvania with a BSE and MSE in
 
 My current research interests include Algorithmic Mechanism Design and Algorithmic Game Theory. I am also interested in Complexity Theory, Algorithm Design, and Theoretical Computer Science in general.
 
-![Profile](/iprofile.jpg)
