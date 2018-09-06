@@ -4,7 +4,7 @@ title: "Biography"
 categories: misc
 ---
 
-![](/profile.jpg)
+![](/profile.jpg | width=50)
 
 I am a Computer Science PhD student in the 
 [Theory of Computer Science](http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by 
