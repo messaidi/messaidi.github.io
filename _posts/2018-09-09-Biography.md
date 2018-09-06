@@ -4,10 +4,10 @@ title: "Biography"
 categories: misc
 ---
 
-<img align="right" width="140" height="220" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
-justify('I am a Computer Science PhD student in the 
+<img align="right" width="147" height="220" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
+I am a Computer Science PhD student in the 
 [Theory of Computer Science](http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by 
-[S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/).')
+[S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/).
 
 Prior to that, I graduated from Univeristy of Pennsylvania with a BSE and MSE in Computer Science, where I was also fortunate to have worked with Prof. 
 [Boon Thau Loo](http://www.cis.upenn.edu/~boonloo/), and advised by Prof. 
