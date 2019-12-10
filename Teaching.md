@@ -6,6 +6,14 @@ permalink: /teaching/
 
 I was a Teaching Assistant for the following classes:
 
+COS 521 - 
+[Advanced Algorithm Design](https://www.cs.princeton.edu/~smattw/Teaching/cos521fa19.htm)
+(Fall 2019)
+
+COS 445 - 
+[Economics and Computation](https://www.cs.princeton.edu/~smattw/Teaching/cos445sp19.htm)
+(Spring 2019)
+
 CIS 262 - 
 [Automata, Computability, and Complexity](https://www.seas.upenn.edu/~cse262/)
 (Fall 2016)
