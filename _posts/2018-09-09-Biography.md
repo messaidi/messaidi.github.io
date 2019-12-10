@@ -13,5 +13,5 @@ Prior to that, I graduated from the University of Pennsylvania with a BSE and MS
 [Boon Thau Loo](http://www.cis.upenn.edu/~boonloo/), and advised by Prof. 
 [Max Mintz](http://www.cis.upenn.edu/~mintz/home.html).
 
-My current research interests include Algorithmic Mechanism Design and Algorithmic Game Theory. I am also interested in Complexity Theory, Algorithm Design, and Theoretical Computer Science in general.
+My current research interests are in Algorithmic Game Theory, with a focus on [Mechanism Design for Social Good](http://md4sg.com/). I am also interested in Algorithm Design and Theoretical Computer Science in general.
 
