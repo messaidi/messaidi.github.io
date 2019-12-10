@@ -16,7 +16,7 @@ permalink: /papers/
 
 **When to Limit Market Entry under Mandatory Purchase.** 
 <br /> Meryem Essaidi, Kira Goldner, S. Matthew Weinberg. 
-<br/> *MD4SG 2019*.
+<br/> *In the 3rd Workshop on Mechanism Design for Social Good (MD4SG 2019)*.
 
 
 **[Predicting Startup Crowdfunding Success through Longitudinal Social Engagement Analysis](http://www.cis.upenn.edu/~qizhen/cikm17-zhang.pdf).** 
