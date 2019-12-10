@@ -4,6 +4,20 @@ title: Papers
 permalink: /papers/ 
 --- 
 
+**Fairness in Online Advertisement via Symmetric Auctions.** 
+<br /> Meryem Essaidi, Olga Russakovsky, S. Matthew Weinberg. 
+<br/> *(Ongoing)*.
+
+
+**Reputation in Matching Markets.** 
+<br /> Meryem Essaidi, S. Matthew Weinberg. 
+<br/> *(Ongoing)*.
+
+
+**When to Limit Market Entry under Mandatory Purchase.** 
+<br /> Meryem Essaidi, Kira Goldner, S. Matthew Weinberg. 
+<br/> *MD4SG 2019*.
+
 
 **[Predicting Startup Crowdfunding Success through Longitudinal Social Engagement Analysis](http://www.cis.upenn.edu/~qizhen/cikm17-zhang.pdf).** 
 <br /> Qizhen Zhang, Tengyuan Ye, Meryem Essaidi, Shivani Agarwal, Vincent Liu, Boon Thau Loo. 
