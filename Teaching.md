@@ -6,6 +6,10 @@ permalink: /teaching/
 
 I was a Teaching Assistant for the following classes:
 
+COS 445 - 
+[Economics and Computation](https://www.cs.princeton.edu/~smattw/Teaching/cos445sp20.htm)
+(Spring 2020)
+
 COS 521 - 
 [Advanced Algorithm Design](https://www.cs.princeton.edu/~smattw/Teaching/cos521fa19.htm)
 (Fall 2019)
