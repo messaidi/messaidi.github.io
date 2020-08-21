@@ -4,7 +4,7 @@ title: "Biography"
 categories: misc
 ---
 
-<img align="right" width="123" height="220" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
+<img align="right" width="262" height="220" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
 I am a Computer Science PhD student in the 
 [Theory of Computer Science](http://theory.cs.princeton.edu/) group at Princeton. I am fortunate to be advised by Prof.
 [S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/).
