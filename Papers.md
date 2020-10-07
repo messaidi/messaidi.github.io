@@ -14,7 +14,7 @@ permalink: /papers/
 <br/> *(Ongoing)*.
 
 
-**When to Limit Market Entry under Mandatory Purchase.** 
+**[When to Limit Market Entry under Mandatory Purchase](https://arxiv.org/abs/2002.06326).** 
 <br /> Meryem Essaidi, Kira Goldner, S. Matthew Weinberg. 
 <br/> *In the 3rd Workshop on Mechanism Design for Social Good (MD4SG 2019)*.
 
