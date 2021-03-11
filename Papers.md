@@ -21,4 +21,4 @@ permalink: /papers/
 
 **[Minimizing Bias in Residency Matching: A Study in Non-Standard Random Walks](http://www.seas.upenn.edu/~cse400/CSE400_2015_2016/reports/report_7.pdf).** 
 <br/> Rebecca Baumher, Jeremy Bierema, Scott Buchanan, Meryem Essaidi. 
-<br/> *Research report done for Senior Thesis (not a published paper)*.
+<br/> *Research report done for Senior Thesis*.
