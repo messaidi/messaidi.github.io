@@ -5,13 +5,8 @@ permalink: /papers/
 --- 
 
 **Fairness in Online Advertisement via Symmetric Auctions.** 
-<br /> Meryem Essaidi, Olga Russakovsky, S. Matthew Weinberg. 
-<br/> *(Ongoing)*.
-
-
-**Reputation in Matching Markets.** 
 <br /> Meryem Essaidi, S. Matthew Weinberg. 
-<br/> *(Ongoing)*.
+<br/> *(In submission)*.
 
 
 **[When to Limit Market Entry under Mandatory Purchase](https://arxiv.org/abs/2002.06326).** 
