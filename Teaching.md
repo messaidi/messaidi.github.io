@@ -7,6 +7,10 @@ permalink: /teaching/
 I was a Teaching Assistant for the following classes:
 
 COS 445 - 
+[Economics and Computation](https://www.cs.princeton.edu/~smattw/Teaching/cos445sp21.htm)
+(Spring 2021)
+
+COS 445 - 
 [Economics and Computation](https://www.cs.princeton.edu/~smattw/Teaching/cos445sp20.htm)
 (Spring 2020)
 
