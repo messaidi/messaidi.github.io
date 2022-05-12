@@ -4,6 +4,10 @@ title: Papers
 permalink: /papers/ 
 --- 
 
+**[Credible, Strategyproof, Optimal, and Bounded Expected-Round Single-Item Auctions for All Distributions](https://drops.dagstuhl.de/opus/volltexte/2022/15662/pdf/LIPIcs-ITCS-2022-66.pdf).**
+<br /> Meryem Essaidi, Matheus V. X. Ferreira, S. Matthew Weinberg. 
+<br/> *(ITCS 2022)*.
+
 **Fairness in Online Advertisement via Symmetric Auctions.** 
 <br /> Meryem Essaidi, S. Matthew Weinberg. 
 <br/> *(In submission)*.
