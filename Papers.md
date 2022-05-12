@@ -6,16 +6,16 @@ permalink: /papers/
 
 **[Credible, Strategyproof, Optimal, and Bounded Expected-Round Single-Item Auctions for All Distributions](https://drops.dagstuhl.de/opus/volltexte/2022/15662/pdf/LIPIcs-ITCS-2022-66.pdf).**
 <br /> Meryem Essaidi, Matheus V. X. Ferreira, S. Matthew Weinberg. 
-<br/> *(ITCS 2022)*.
+<br/> *Innovations in Theoretical Computer Science Conference (ITCS 2022)*.
 
-**Fairness in Online Advertisement via Symmetric Auctions.** 
+**[On Symmetries and Fairness in Multi-Dimensional Mechanism Design](https://link.springer.com/chapter/10.1007/978-3-030-94676-0_4).** 
 <br /> Meryem Essaidi, S. Matthew Weinberg. 
-<br/> *(In submission)*.
+<br/> *Conference on Web and Internet Economics (WINE 2021)*.
 
 
 **[When to Limit Market Entry under Mandatory Purchase](https://arxiv.org/abs/2002.06326).** 
 <br /> Meryem Essaidi, Kira Goldner, S. Matthew Weinberg. 
-<br/> *In the 3rd Workshop on Mechanism Design for Social Good (MD4SG 2019)*.
+<br/> *Mechanism Design for Social Good (MD4SG 2019)*.
 
 
 **[Predicting Startup Crowdfunding Success through Longitudinal Social Engagement Analysis](http://www.cis.upenn.edu/~qizhen/cikm17-zhang.pdf).** 
