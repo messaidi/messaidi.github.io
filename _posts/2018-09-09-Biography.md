@@ -14,5 +14,5 @@ Prior to that, I graduated from the University of Pennsylvania with a BSE and MS
 
 My research is in the areas of algorithms, algorithmic game theory, mechanism design, and their applications to social good, inequality, and distributive justice.
 
-Here is my [CV]().
+Here is my [CV](https://messaidi.github.io/CV_Meryem_Essaidi_2022.pdf).
 
