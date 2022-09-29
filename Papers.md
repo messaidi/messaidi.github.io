@@ -18,7 +18,7 @@ permalink: /papers/
 <br/> *Mechanism Design for Social Good (MD4SG) 2019*.
 
 
-**[Predicting Startup Crowdfunding Success through Longitudinal Social Engagement Analysis](http://www.cis.upenn.edu/~qizhen/cikm17-zhang.pdf).** 
+**[Predicting Startup Crowdfunding Success through Longitudinal Social Engagement Analysis](https://dl.acm.org/doi/10.1145/3132847.3132908).** 
 <br /> Qizhen Zhang, Tengyuan Ye, Meryem Essaidi, Shivani Agarwal, Vincent Liu, Boon Thau Loo. 
 <br/> *ACM International Conference on Information and Knowledge Management (CIKM) 2017*.
 
