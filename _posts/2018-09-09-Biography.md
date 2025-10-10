@@ -7,6 +7,7 @@ categories: misc
 <img align="right" width="195" height="164" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
 I am a Postdoctoral Researcher at UC Berkeley and the Berkeley Institute for Data Science (BIDS), working with Jennifer Chayes and Christian Borgs. 
 
+
 Before joining Berkeley, I completed my PhD in Theoretical Computer Science at Princeton University in 2023, where I was fortunate to be advised by Prof.
 [S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/). 
 
