@@ -6,8 +6,8 @@ categories: misc
 
 <img align="right" width="195" height="164" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
 I am a Postdoctoral Researcher at UC Berkeley, working with
+
 [Jennifer Chayes](http://jenniferchayes.com/) and 
-[Christian Borgs](http://christianborgs.com/).
 
 [Christian Borgs](http://christianborgs.com/). 
 
