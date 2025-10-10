@@ -9,7 +9,7 @@ I am a Postdoctoral Researcher at UC Berkeley, working with Jennifer Chayes and 
 
 
 
-Before joining Berkeley, I completed my PhD in Theoretical Computer Science at Princeton University in 2023, where I was fortunate to be advised by Prof.
+Before joining Berkeley, I completed my PhD in Theoretical Computer Science at Princeton University, where I was fortunate to be advised by Prof.
 [S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/). 
 
 
