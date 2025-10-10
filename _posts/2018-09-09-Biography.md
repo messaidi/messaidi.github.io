@@ -4,7 +4,7 @@ title: "Biography"
 categories: misc
 ---
 
-<img align="right" width="195" height="164" src="pic.png">
+<img align="right" width="195" height="164" src="[https://github.com/messaidi/messaidi.github.io/blob/master/pic.png]">
 I am a Postdoctoral Researcher at UC Berkeley, working with
 
 [Jennifer Chayes](http://jenniferchayes.com/) and 
