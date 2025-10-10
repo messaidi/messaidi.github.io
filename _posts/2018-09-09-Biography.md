@@ -4,7 +4,7 @@ title: "Biography"
 categories: misc
 ---
 
-<img align="right" width="195" height="164" src="https://raw.githubusercontent.com/messaidi/messaidi.github.io/master/pic.png">
+<img align="right" width="195" src="https://raw.githubusercontent.com/messaidi/messaidi.github.io/master/pic.png">
 
 [Jennifer Chayes](http://jenniferchayes.com/) and 
 [Christian Borgs](http://christianborgs.com/). 
