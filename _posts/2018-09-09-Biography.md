@@ -9,6 +9,9 @@ I am a Postdoctoral Researcher at UC Berkeley, working with
 [Jennifer Chayes](http://jenniferchayes.com/) and 
 [Christian Borgs](http://christianborgs.com/).
 
+[Christian Borgs](http://christianborgs.com/). 
+
+
 
 Before joining Berkeley, I completed my PhD in Theoretical Computer Science at Princeton University, where I was fortunate to be advised by Prof.
 [S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/). 
