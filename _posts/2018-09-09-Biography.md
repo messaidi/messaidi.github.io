@@ -8,7 +8,6 @@ categories: misc
 I am a Postdoctoral Researcher at UC Berkeley, working with
 
 [Jennifer Chayes](http://jenniferchayes.com/) and 
-
 [Christian Borgs](http://christianborgs.com/). 
 
 
