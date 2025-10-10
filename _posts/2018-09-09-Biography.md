@@ -5,14 +5,17 @@ categories: misc
 ---
 
 <img align="right" width="195" height="164" src="https://messaidi.github.io/4103434121223045079866313854757702488031232.png">
-I am a Computer Science PhD student at [Princeton University](https://www.cs.princeton.edu/) where I am fortunate to be advised by Prof.
-[S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/).
+I am a Postdoctoral Researcher at UC Berkeley and the Berkeley Institute for Data Science (BIDS), working with Jennifer Chayes and Christian Borgs. 
 
-Prior to that, I graduated from the University of Pennsylvania with a BSE and MSE in Computer Science, where I was also fortunate to have worked with Prof. 
+Before joining Berkeley, I completed my PhD in Theoretical Computer Science at Princeton University in 2023, where I was fortunate to be advised by Prof.
+[S. Matthew Weinberg](https://www.cs.princeton.edu/~smattw/). 
+
+
+Prior to that, I graduated from the University of Pennsylvania with a BSE and MSE in Computer Science, with minors in Mathematics and Economics, where I was also fortunate to have worked with Prof. 
 [Boon Thau Loo](http://www.cis.upenn.edu/~boonloo/), and advised by Prof. 
 [Max Mintz](http://www.cis.upenn.edu/~mintz/home.html).
 
-My research is in the areas of algorithms, algorithmic game theory, mechanism design, and their applications to social good, inequality, and distributive justice.
+My primary research interests are in algorithmic game theory and mechanism design. I like to design algorithms that align individual incentives with social good, or some other objective. I'm particularly interested in understanding how algorithmic decisions shape economic ecosystems and affect both efficiency and equity.
 
 Here is my [CV](https://messaidi.github.io/CV_Meryem_Essaidi_2025.pdf).
 
