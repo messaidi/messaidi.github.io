@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meryem Essaidi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --fg: #1a1a1a;
+      --fg-secondary: #555;
+      --fg-tertiary: #888;
+      --bg: #fafaf8;
+      --bg-alt: #f2f1ed;
+      --accent: #8b4513;
+      --accent-light: #a0522d;
+      --border: #e0dfdb;
+      --serif: 'Cormorant Garamond', 'Georgia', serif;
+      --sans: 'IBM Plex Sans', 'Helvetica Neue', sans-serif;
+      --mono: 'IBM Plex Mono', monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html {
+      font-size: 17px;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: var(--sans);
+      font-weight: 300;
+      color: var(--fg);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+
+    ::selection {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease;
+    }
+    a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    nav .nav-inner {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0.85rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    nav .nav-name {
+      font-family: var(--serif);
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--fg);
+      letter-spacing: 0.02em;
+      border-bottom: none;
+    }
+    nav .nav-links {
+      display: flex;
+      gap: 1.8rem;
+    }
+    nav .nav-links a {
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--fg-secondary);
+      text-transform: lowercase;
+      letter-spacing: 0.06em;
+      border-bottom: none;
+      transition: color 0.2s ease;
+    }
+    nav .nav-links a:hover {
+      color: var(--fg);
+      border-bottom: none;
+    }
+
+    /* ── LAYOUT ── */
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    section {
+      padding: 4rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding-top: 7rem;
+      display: grid;
+      grid-template-columns: 1fr 180px;
+      gap: 3rem;
+      align-items: start;
+    }
+    .hero-text h1 {
+      font-family: var(--serif);
+      font-size: 2.8rem;
+      font-weight: 500;
+      line-height: 1.15;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.01em;
+    }
+    .hero-text .tagline {
+      font-size: 0.88rem;
+      color: var(--fg-secondary);
+      margin-bottom: 1.6rem;
+      font-weight: 400;
+    }
+    .hero-text .bio {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: var(--fg);
+    }
+    .hero-text .bio p {
+      margin-bottom: 1rem;
+    }
+    .hero-photo {
+      padding-top: 0.5rem;
+    }
+    .hero-photo img {
+      width: 180px;
+      height: 220px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 4px;
+      filter: grayscale(15%);
+      transition: filter 0.4s ease;
+    }
+    .hero-photo img:hover {
+      filter: grayscale(0%);
+    }
+
+    .hero-links {
+      margin-top: 1.4rem;
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.82rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+    }
+    .hero-links a {
+      color: var(--accent);
+      transition: color 0.2s ease;
+    }
+    .hero-links a:hover {
+      color: var(--accent-light);
+    }
+
+    /* ── SECTION HEADERS ── */
+    .section-label {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--fg-tertiary);
+      margin-bottom: 2rem;
+    }
+
+    /* ── PAPERS ── */
+    .paper {
+      margin-bottom: 1.6rem;
+      padding-bottom: 1.6rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .paper:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .paper-title {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 1.4;
+      margin-bottom: 0.3rem;
+      color: var(--fg);
+    }
+    .paper-authors {
+      font-size: 0.85rem;
+      color: var(--fg-secondary);
+      margin-bottom: 0.25rem;
+      line-height: 1.5;
+    }
+    .paper-authors .me {
+      font-weight: 500;
+      color: var(--fg);
+    }
+    .paper-venue {
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--accent);
+      font-style: italic;
+    }
+
+    /* ── TEACHING ── */
+    .teaching-item {
+      display: grid;
+      grid-template-columns: 230px 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.2rem;
+      font-size: 0.9rem;
+      align-items: baseline;
+    }
+    .teaching-term {
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      color: var(--fg-tertiary);
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+    .teaching-course {
+      color: var(--fg);
+    }
+    .teaching-course .role {
+      color: var(--fg-tertiary);
+      font-size: 0.82rem;
+    }
+
+    .teaching-school {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 1.2rem;
+      margin-top: 2rem;
+      color: var(--fg);
+    }
+    .teaching-school:first-of-type {
+      margin-top: 0;
+    }
+
+    /* ── SERVICE ── */
+    .service-text {
+      font-size: 0.9rem;
+      color: var(--fg-secondary);
+      line-height: 1.8;
+    }
+
+    /* ── CONTACT ── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      font-size: 0.9rem;
+    }
+    .contact-block p {
+      margin-bottom: 0.3rem;
+      color: var(--fg-secondary);
+    }
+    .contact-block .label {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--fg-tertiary);
+      margin-bottom: 0.5rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 2rem 2rem 3rem;
+      font-size: 0.75rem;
+      color: var(--fg-tertiary);
+      letter-spacing: 0.02em;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      html { font-size: 16px; }
+      main { padding: 0 1.2rem; }
+      nav .nav-inner { padding: 0.8rem 1.2rem; }
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top: 6rem;
+        gap: 1.5rem;
+      }
+      .hero-photo {
+        order: -1;
+      }
+      .hero-photo img {
+        width: 120px;
+        height: 150px;
+      }
+      .hero-text h1 {
+        font-size: 2.1rem;
+      }
+      .teaching-item {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+        margin-bottom: 1.4rem;
+      }
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+      nav .nav-links { gap: 1.2rem; }
+      footer { padding: 2rem 1.2rem 3rem; }
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero-text, .hero-photo {
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero-photo {
+      animation-delay: 0.1s;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="nav-name">Meryem Essaidi</a>
+      <div class="nav-links">
+        <a href="#research">research</a>
+        <a href="#teaching">teaching</a>
+        <a href="#service">service</a>
+        <a href="#contact">contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <h1>Meryem Essaidi</h1>
+        <div class="tagline">Postdoctoral Researcher · UC Berkeley</div>
+        <div class="bio">
+          <p>
+            I am a Postdoctoral Researcher at the Berkeley Institute for Data Science,
+            working with
+            <a href="http://jenniferchayes.com/">Jennifer Chayes</a> and
+            <a href="http://christianborgs.com/">Christian Borgs</a>.
+          </p>
+          <p>
+            My research lies at the intersection of theoretical computer science and economics.
+            I am primarily interested in algorithmic game theory, mechanism design, and stochastic
+            optimization. I design incentive-aware algorithms with provable guarantees on both
+            efficiency and equity. I've worked on auction design, multi-dimensional mechanism design,
+            market regulation, and algorithmic fairness. Recently, I've been working on optimal
+            resource allocation in redistribution networks and algorithm design for decentralized markets.
+          </p>
+          <p>
+            Before joining Berkeley, I completed my PhD in Theoretical Computer Science
+            at Princeton University, where I was very fortunate to be advised by Prof.
+            <a href="https://www.cs.princeton.edu/~smattw/">S. Matthew Weinberg</a>.
+            Prior to that, I graduated from the University of Pennsylvania with a BSE and MSE
+            in Computer Science, with minors in Mathematics and Economics, where I was
+            also fortunate to have worked with Prof.
+            <a href="http://www.cis.upenn.edu/~boonloo/">Boon Thau Loo</a>,
+            and advised by Prof.
+            <a href="http://www.cis.upenn.edu/~mintz/home.html">Max Mintz</a>.
+          </p>
+        </div>
+        <div class="hero-links">
+          <a href="Resume_Meryem_Essaidi_2026.pdf">Resume</a>
+          <a href="https://messaidi.github.io/CV_Meryem_Essaidi_2025.pdf">CV</a>
+          <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a>
+          <a href="mailto:essaidi.meryem@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="https://raw.githubusercontent.com/messaidi/messaidi.github.io/master/pic.png" alt="Meryem Essaidi">
+      </div>
+    </section>
+
+    <!-- ── RESEARCH ── -->
+    <section id="research">
+      <div class="section-label">Selected Publications</div>
+
+      <div class="paper">
+        <div class="paper-title">Optimal Resource Allocation in Income Redistribution Networks</div>
+        <div class="paper-authors">
+          with Christian Borgs, Jennifer Chayes, Chris Ikeokwu
+        </div>
+        <div class="paper-venue">Working paper, 2025</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Algorithmic Ecosystems: Optimizing in Decentralized Markets</div>
+        <div class="paper-authors">
+          with Sam Taggart
+        </div>
+        <div class="paper-venue">Working paper, 2024</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title"><a href="#">To Regulate or Not to Regulate: Revenue Maximization for Consumer Utility</a></div>
+        <div class="paper-authors">
+          with Kira Goldner, S. Matthew Weinberg
+        </div>
+        <div class="paper-venue">Symposium on Algorithmic Game Theory (SAGT) 2024</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title"><a href="https://drops.dagstuhl.de/opus/volltexte/2022/15662/pdf/LIPIcs-ITCS-2022-66.pdf">Credible, Strategyproof, Optimal, and Bounded Expected-Round Single-Item Auctions for All Distributions</a></div>
+        <div class="paper-authors">
+          with Matheus V. X. Ferreira, S. Matthew Weinberg
+        </div>
+        <div class="paper-venue">Innovations in Theoretical Computer Science (ITCS) 2022</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title"><a href="https://link.springer.com/chapter/10.1007/978-3-030-94676-0_4">On Symmetries and Fairness in Multi-Dimensional Mechanism Design</a></div>
+        <div class="paper-authors">
+          with S. Matthew Weinberg
+        </div>
+        <div class="paper-venue">Conference on Web and Internet Economics (WINE) 2021</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title"><a href="https://arxiv.org/abs/2002.06326">When to Limit Market Entry under Mandatory Purchase</a></div>
+        <div class="paper-authors">
+          with Kira Goldner, S. Matthew Weinberg
+        </div>
+        <div class="paper-venue">ACM EAAMO 2021 · MD4SG 2019</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title"><a href="https://dl.acm.org/doi/10.1145/3132847.3132908">Predicting Startup Crowdfunding Success through Longitudinal Social Engagement Analysis</a></div>
+        <div class="paper-authors">
+          with Shivani Agarwal, Vincent Liu, Boon Thau Loo, Tengyuan Ye, Qizhen Zhang
+        </div>
+        <div class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM) 2017</div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title"><a href="http://www.seas.upenn.edu/~cse400/CSE400_2015_2016/reports/report_7.pdf">Minimizing Bias in Residency Matching: A Study in Non-Standard Random Walks</a></div>
+        <div class="paper-authors">
+          with Rebecca Baumher, Jeremy Bierema, Scott Buchanan
+        </div>
+        <div class="paper-venue">Senior Thesis</div>
+      </div>
+
+    </section>
+
+    <!-- ── TEACHING ── -->
+    <section id="teaching">
+      <div class="section-label">Teaching</div>
+
+      <div class="teaching-school">Princeton University</div>
+
+      <div class="teaching-item">
+        <div class="teaching-term">Spring 2019, 2020, 2021</div>
+        <div class="teaching-course">
+          COS 445 · <a href="https://www.cs.princeton.edu/~smattw/Teaching/cos445sp21.htm">Economics and Computation</a>
+        </div>
+      </div>
+      <div class="teaching-item">
+        <div class="teaching-term">Fall 2019</div>
+        <div class="teaching-course">
+          COS 521 · <a href="https://www.cs.princeton.edu/~smattw/Teaching/cos521fa19.htm">Advanced Algorithm Design</a>
+        </div>
+      </div>
+
+      <div class="teaching-school">University of Pennsylvania</div>
+
+      <div class="teaching-item">
+        <div class="teaching-term">Fall 2014, Spring 2016, Fall 2016</div>
+        <div class="teaching-course">
+          CIS 262 · <a href="https://www.seas.upenn.edu/~cse262/">Automata, Computability &amp; Complexity</a>
+        </div>
+      </div>
+      <div class="teaching-item">
+        <div class="teaching-term">Fall 2015</div>
+        <div class="teaching-course">
+          CIS 240 · <a href="https://www.seas.upenn.edu/~cis240/">Introduction to Computer Systems</a>
+        </div>
+      </div>
+      <div class="teaching-item">
+        <div class="teaching-term">Spring 2015</div>
+        <div class="teaching-course">
+          CIS 350 · <a href="https://www.seas.upenn.edu/~cdmurphy/cis350/spring2015/">Software Design &amp; Engineering</a>
+        </div>
+      </div>
+      <div class="teaching-item">
+        <div class="teaching-term">Fall 2013, Spring 2014</div>
+        <div class="teaching-course">
+          CIS 160 · <a href="http://www.cis.upenn.edu/~cis160">Mathematical Foundations of CS</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── SERVICE ── -->
+    <section id="service">
+      <div class="section-label">Service &amp; Talks</div>
+      <div class="service-text">
+        <p style="margin-bottom: 1rem;">
+          <strong>Program committee:</strong> EC 2023–2026, EAAMO 2021–2022, MD4SG 2020.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>Reviewer:</strong> EC 2020–2021, WINE 2018–2021, ITCS 2019, ESA 2019.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>Invited talks:</strong> Rutgers University 2025, ITCS 2022, Berkeley EAAMO 2022, ACM EAAMO 2021,
+          WINE Lightning Talks 2020, MD4SG 2018 &amp; 2019.
+        </p>
+        <p>
+          <strong>Co-organizer:</strong> MD4SG-Inequality Group 2022–2023, Princeton Research Inclusion Social Event (RISE) 2020–2023.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="section-label">Contact</div>
+      <div class="contact-grid">
+        <div class="contact-block">
+          <div class="label">Email</div>
+          <p><a href="mailto:essaidi.meryem@gmail.com">essaidi.meryem@gmail.com</a></p>
+        </div>
+        <div class="contact-block">
+          <div class="label">Location</div>
+          <p>UC Berkeley, CA</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Meryem Essaidi
+  </footer>
+
+</body>
+</html>
